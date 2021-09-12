@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_extensionName__",
+  "author": "Jacob Logas",
+  "version": "0.0.1",
+  "applications": {
+    "gecko": {
+      "id": "trellothunderbird@meekoracc.com",
+      "strict_min_version": "76.0a1"
+    }
+  },
+  "permissions": [
+    "storage",
+    "messagesRead"
+  ],
+  "background": {
+    "scripts": [
+      "background.bundle.js"
+    ]
+  },
+  "message_display_action": {
+    "default_popup": "popup.html",
+    "default_title": "Trello"
+  },
+  "description": "__MSG_extensionDescription__",
+  "options_ui": {
+    "page": "options/options.html",
+    "open_in_tab": false,
+    "browser_style": true
+  }
+}

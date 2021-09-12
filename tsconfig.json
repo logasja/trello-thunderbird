@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "outDir": "extension",
+    "pretty": true,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "target": "es6",
+    "module": "ESNext",
+    "typeRoots": ["node_modules/@types", "node_modules/thunderbird-web-ext-types"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+  },
+  "include": [
+    "src/*.ts"
+  ],
+  "exclude": [
+    "./tests/**/*.test.ts"
+  ]
+}
