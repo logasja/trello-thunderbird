@@ -7,7 +7,14 @@
     <link rel="stylesheet" href="css/mystyles.css">
   </head>
   <body class="popup">
-
+    <form class="pure-form">
+      <select></select>
+      <fieldset class="pure-group">
+        <input id="title" class="pure-input-1-2" type="text" />
+        <textarea id="body" class="pure-input-1-2"></textarea>
+      </fieldset>
+      <button type="submit" class="pure-button pure-input-1-2 pure-button-primary">Add to Board</button>
+    </form>
     <script src="./popup.bundle.js"></script>
   </body>
 </html>

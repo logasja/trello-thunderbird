@@ -7,8 +7,15 @@ async function main() {
   }).then(tabs => {
     let tabId = tabs[0].id ? tabs[0].id : 0;
     browser.messageDisplay.getDisplayedMessage(tabId).then((message) => {
-      document.body.textContent = message.subject;
-    })
+      console.log(message);
+      const subjectel = document.getElementById('title')! as HTMLInputElement;
+      console.log(subjectel);
+      subjectel.value = message.subject;
+      return browser.messages.getFull(message.id)
+    }).then((body) => {
+      console.log(body);
+      // document.getElementById('body')!.textContent = body.body;
+    });
   });
 }
 
