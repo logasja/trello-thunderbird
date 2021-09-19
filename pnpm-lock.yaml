@@ -31,6 +31,7 @@ devDependencies:
   css-loader: 6.2.0_webpack@5.52.1
   file-loader: 6.2.0_webpack@5.52.1
   mini-css-extract-plugin: 2.3.0_webpack@5.52.1
+  purecss: 2.0.6
   sass: 1.39.2
   sass-loader: 12.1.0_sass@1.39.2+webpack@5.52.1
   thunderbird-web-ext-types: 1.0.0

@@ -1,6 +1,7 @@
 @charset "utf-8";
 
-@import "../node_modules/normalize.css";
+@import "../node_modules/purecss";
+// @import "../node_modules/normalize.css";
 
 body.popup {
   max-width: 500px;
