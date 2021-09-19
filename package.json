@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "normalize.css": "^8.0.1",
-    "trello": "^0.10.0"
+    "oauth": "^0.9.15",
+    "trello.js": "^1.0.2"
   }
 }

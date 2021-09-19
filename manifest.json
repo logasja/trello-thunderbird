@@ -24,7 +24,7 @@
   },
   "description": "__MSG_extensionDescription__",
   "options_ui": {
-    "page": "options/options.html",
+    "page": "options.html",
     "open_in_tab": false,
     "browser_style": true
   }

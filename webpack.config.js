@@ -47,6 +47,7 @@ const commonExtConfig = {
     'content': './src/content.ts',
     'background': './src/background.ts',
     'popup': './src/popup.ts',
+    'options': './src/options.ts',
     'mystyles': './scss/mystyles.scss'
   },
 };
