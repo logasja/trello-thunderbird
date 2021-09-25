@@ -2,6 +2,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 const WebExtPlugin = require('web-ext-plugin');
 const path = require('path');
+const Dotenv = require('dotenv-webpack');
 
 const isDevelopment = process.env.NODE_ENV === 'development'
 
@@ -107,6 +108,7 @@ const thunderbirdConfig = {
       filename: isDevelopment ? "css/[name].css" : "css/[name].css",
       chunkFilename: isDevelopment ? "css/[id].css" : "css/[id].[hash].css"
     }),
+    new Dotenv(),
   ],
 };
 

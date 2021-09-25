@@ -12,6 +12,7 @@
   "devDependencies": {
     "copy-webpack-plugin": "^9.0.1",
     "css-loader": "^6.2.0",
+    "dotenv-webpack": "^7.0.3",
     "file-loader": "^6.2.0",
     "mini-css-extract-plugin": "^2.3.0",
     "purecss": "^2.0.6",
