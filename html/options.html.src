@@ -3,9 +3,20 @@
 <html>
   <head>
     <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="css/mystyles.css">
   </head>
-  <body>
-    <button id="authbutton">Click Here to Login</button>
+  <body class="options">
+    <form id="auth-form" class="pure-form pure-form-aligned">
+      <fieldset>
+        <legend>Authenticate with Trello</legend>
+        <button id="authbutton" type="button" class="pure-button">Click Here to Login</button>
+        <div id="token-fieldset" class="pure-control-group hidden">
+          <label for="token">Paste the Token Here</label>
+          <input id="token" name="trello-token" />
+          <button class="pure-button pure-button-primary" type="submit">Save</button>
+        </div>
+      </fieldset>
+    </form>
     <script src="options.bundle.js"></script>
   </body>
 </html>
