@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "__MSG_extensionName__",
+  "name": "TrelloThunderbird",
   "author": "Jacob Logas",
   "version": "0.0.1",
   "applications": {
